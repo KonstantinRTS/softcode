@@ -29,7 +29,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
-        speed: 18000,
+        speed: 25000,
         cssEase: 'linear'
     });
 
@@ -41,7 +41,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
-        speed: 18000,
+        speed: 28000,
         cssEase: 'linear'
     });
 
@@ -53,7 +53,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
-        speed: 18000,
+        speed: 28000,
         cssEase: 'linear'
     });
 
@@ -65,7 +65,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
-        speed: 18000,
+        speed: 25000,
         cssEase: 'linear'
     });
 
@@ -77,7 +77,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
-        speed: 18000,
+        speed: 25000,
         cssEase: 'linear'
     });
 
@@ -89,7 +89,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
-        speed: 18000,
+        speed: 25000,
         cssEase: 'linear'
     });
 
@@ -101,7 +101,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
-        speed: 18000,
+        speed: 25000,
         cssEase: 'linear'
     });
 
@@ -113,7 +113,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
-        speed: 18000,
+        speed: 25000,
         cssEase: 'linear'
     });
 

@@ -284,10 +284,13 @@
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: cover;
+
+        @media(max-width: 992px) { 
+            display: none;
+        }
     }
 
     @media (max-width: 992px) {
-        background: linear-gradient(0deg, rgba(20, 101, 255, 1) 0%, rgba(246, 246, 246, 1) 100%);
         padding-bottom: 80px;
     }
 
@@ -341,7 +344,10 @@
         }
 
         @media (max-width: 992px) {
-            text-align: center;
+            text-align: start;
+            br {
+                display: none;
+            }
         }
     }
 

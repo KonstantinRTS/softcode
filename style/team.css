@@ -324,8 +324,12 @@
   background-size: cover;
 }
 @media (max-width: 992px) {
+  .team-welcome::before {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
   .team-welcome {
-    background: linear-gradient(0deg, rgb(20, 101, 255) 0%, rgb(246, 246, 246) 100%);
     padding-bottom: 80px;
   }
 }
@@ -377,7 +381,10 @@
 }
 @media (max-width: 992px) {
   .team-welcome__title {
-    text-align: center;
+    text-align: start;
+  }
+  .team-welcome__title br {
+    display: none;
   }
 }
 .team-welcome__link {

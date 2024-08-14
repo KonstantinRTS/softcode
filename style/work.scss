@@ -19,6 +19,7 @@
         font-weight: 900;
         text-align: center;
         color: #fff;
+        text-transform: uppercase;
     }
 
     &__subtitle {
@@ -257,7 +258,7 @@
     }
 
     &__title {
-        @include adaptiv-value('font-size', 64, 48, 1);
+        @include adaptiv-value('font-size', 64, 38, 1);
         line-height: normal;
         font-weight: 700;
         text-align: center;
@@ -375,6 +376,11 @@
         color: #fff;
         font-weight: 700;
         text-align: center;
+
+        @media(max-width: 767px) { 
+            max-width: 80%;
+            margin: 0 auto;
+        }
     }
 
     &__text { 

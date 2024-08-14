@@ -147,6 +147,7 @@
         @include adaptiv-value("font-size", 36, 34, 1);
         @include adaptiv-value("line-height", 43, 41, 1);
         color: #fff;
+        max-width: 460px;
     }
 
     &__col-02 {
@@ -282,6 +283,7 @@
             width: 100%;
             display: flex;
             justify-content: center;
+            transition: all 0.3s ease 0s;
         }
 
         &::before {
@@ -314,6 +316,12 @@
             position: static;
             transform: rotate(-8deg) translate(0, 0);
             margin: 100px auto 0 auto;
+        }
+
+        &:hover { 
+            span { 
+                background-color: #1465FF;
+            }
         }
     }
 
@@ -1150,7 +1158,7 @@
 /* Home Meet */
 .home-meet {
     background-color: #1465ff;
-    @include adaptiv-value("padding-top", 140, 0, 1);
+    /* @include adaptiv-value("padding-top", 140, 0, 1); */
     @include adaptiv-value("padding-bottom", 140, 80, 1);
     position: relative;
 
@@ -1192,6 +1200,10 @@
 
         @media (max-width: 1200px) {
             display: none;
+        }
+
+        @media(min-width: 1441px) { 
+            bottom: -180px;
         }
     }
 
@@ -1391,6 +1403,7 @@
             width: 100%;
             display: flex;
             justify-content: center;
+            transition: all 0.3s ease 0s;
         }
 
         &::before {
@@ -1417,6 +1430,12 @@
             background-color: #fffc0d;
             z-index: 10;
             transform: rotate(6deg);
+        }
+
+        &:hover { 
+            span { 
+                background-color: #1465FF;
+            }
         }
 
         @media (max-width: 767px) {

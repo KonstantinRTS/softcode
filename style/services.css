@@ -87,6 +87,7 @@
   top: -40px;
   left: 0;
   transform: rotate(-8deg);
+  z-index: 30;
 }
 .services-hero__label span {
   font-size: 24px;
@@ -158,12 +159,12 @@
 }
 @media (max-width: 1440px) {
   .services-hero__subtitle {
-    font-size: calc(34px + 2 * (100vw - 360px) / 1080);
+    font-size: calc(24px + 12 * (100vw - 360px) / 1080);
   }
 }
 @media (max-width: 1440px) {
   .services-hero__subtitle {
-    line-height: calc(41px + 2 * (100vw - 360px) / 1080);
+    line-height: calc(30px + 13 * (100vw - 360px) / 1080);
   }
 }
 .services-hero__col-02 {
@@ -171,9 +172,9 @@
 }
 .services-hero__col-02 .float-back-01 {
   position: absolute;
-  top: 100px;
-  right: 0px;
-  width: 1100px;
+  top: -100px;
+  right: -300px;
+  width: 1400px;
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 30;
@@ -395,11 +396,12 @@
 .services-sol-slider__wrapper {
   background-color: #fff;
   border-radius: 24px;
-  padding: 30px 40px;
+  padding: 23px 40px;
   display: flex;
   align-items: center;
   -moz-column-gap: 16px;
        column-gap: 16px;
+  height: 100%;
 }
 @media (max-width: 767px) {
   .services-sol-slider__wrapper {
