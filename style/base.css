@@ -12,6 +12,9 @@ body {
   background-color: #f6f6f6;
   overflow-x: hidden;
 }
+body._stop {
+  overflow: hidden;
+}
 body::-webkit-scrollbar {
   background: transparent;
   width: 10px;

@@ -1,9 +1,10 @@
 $ = jQuery;
 
-$(window).on('load', function() {
-    // Плавно скрываем прелоадер после полной загрузки страницы
-    $('#preloader').fadeOut('slow', function() {
-        $(this).remove(); // Удаляем прелоадер из DOM после его скрытия
+/* Кастомный прелоадер */
+$(window).on('load', function () {
+
+    $('#preloader').fadeOut('slow', function () {
+        $(this).remove(); 
     });
 });
 
@@ -11,6 +12,14 @@ $(window).on('load', function() {
 $(document).ready(function () {
 
     new WOW().init();
+
+    /* Мобильное меню */
+    $('.header__btn-menu').on('click', function () {
+
+        $('.header__btn-menu').toggleClass('_active');
+        $('.header__menu').toggleClass('_active');
+        $('body').toggleClass('_stop');
+    });
 
     $('.marquee-slider-first').slick({
         dots: false,
@@ -194,7 +203,7 @@ $(document).ready(function () {
             speed: 800,
         });
 
-        
+
         $('.career-our-slider').slick({
             arrows: true,
             appendArrows: '.career-our-slider__buttons',
@@ -204,7 +213,7 @@ $(document).ready(function () {
             dots: false,
             speed: 800,
         });
-        
+
     }
 
     /* Проверяю есть ли на странице такая секция и фиксирую её */
@@ -216,7 +225,7 @@ $(document).ready(function () {
         var qwertyHeight = $qwerty.height();
 
         $(window).scroll(function () {
-  
+
             if (window.innerWidth > 992) {
                 var scrollPosition = $(this).scrollTop();
 
@@ -262,7 +271,7 @@ $(document).ready(function () {
         var qwertyHeight = $qwerty.height();
 
         $(window).scroll(function () {
-  
+
             if (window.innerWidth > 992) {
                 var scrollPosition = $(this).scrollTop();
 
