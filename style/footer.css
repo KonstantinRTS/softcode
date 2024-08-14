@@ -55,10 +55,18 @@
   -moz-column-gap: 32px;
        column-gap: 32px;
 }
+.footer__nav:nth-child(1) {
+  grid-column-start: span 2;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+}
 @media (max-width: 575px) {
   .footer__nav:nth-child(1) {
     grid-column-start: span 2;
     grid-row-start: 1;
+    margin-left: 0;
+    width: 100%;
   }
 }
 .footer__nav:nth-child(1) ul {
@@ -79,6 +87,9 @@
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+}
+.footer__nav._legal {
+  display: none;
 }
 .footer__item-menu a {
   color: #202020;

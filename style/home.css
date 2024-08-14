@@ -226,7 +226,7 @@
 .home-hero__image {
   position: relative;
   z-index: 50;
-  animation: bounce 3s linear infinite;
+  animation: bounce-custom 3s linear infinite;
 }
 .home-hero__image img {
   max-width: 793px;
@@ -238,34 +238,6 @@
 @media (max-width: 992px) {
   .home-hero__image img {
     width: 100%;
-  }
-}
-
-/* Marquee for home page */
-@media (max-width: 767px) {
-  .marquee-slider-first__item img {
-    height: 27px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-
-.marquee-slider-second__item img {
-  transform: rotate(-180deg);
-}
-@media (max-width: 767px) {
-  .marquee-slider-second__item img {
-    height: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-
-@media (max-width: 767px) {
-  .marquee-slider-third__item img {
-    height: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
   }
 }
 
@@ -495,7 +467,7 @@
 }
 .home-create-slider__wrapper {
   border-radius: 40px;
-  background: #e3e2e7;
+  background: #ffffff;
   padding: 32px;
   display: flex;
   flex-direction: column;
@@ -722,7 +694,7 @@
 }
 .home-welcome-slider__wrapper {
   border-radius: 40px;
-  background: #e3e2e7;
+  background: #fff;
   padding: 32px;
   display: flex;
   flex-direction: column;
@@ -975,6 +947,8 @@
   justify-content: space-between;
   -moz-column-gap: 32px;
        column-gap: 32px;
+  position: relative;
+  z-index: 50;
 }
 @media (max-width: 992px) {
   .home-stack__body {
@@ -982,8 +956,6 @@
     row-gap: 50px;
     -moz-column-gap: 0;
          column-gap: 0;
-    position: relative;
-    z-index: 50;
   }
 }
 .home-stack__col-01 {
@@ -1021,7 +993,7 @@
      object-fit: cover;
   position: relative;
   z-index: 50;
-  animation: bounce 3s linear infinite;
+  animation: bounce-custom 3s linear infinite;
 }
 
 .home-stack-slider {
@@ -1059,8 +1031,8 @@
 }
 .home-stack-slider__wrapper {
   border-radius: 40px;
-  background: #e3e2e7;
-  padding: 32px;
+  background: #fff;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -1095,7 +1067,7 @@
 .home-stack-slider__stack li {
   padding: 4px 8px;
   border-radius: 100px;
-  background-color: #d9d8dd;
+  background-color: #f4f4f4;
   color: #000000;
   font-size: 16px;
 }
@@ -1145,7 +1117,7 @@
 
 /* Home Meet */
 .home-meet {
-  background-color: #1465FF;
+  background-color: #1465ff;
   padding-top: 140px;
   padding-bottom: 140px;
   position: relative;
