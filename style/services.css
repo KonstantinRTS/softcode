@@ -20,9 +20,9 @@
   left: 0;
   z-index: 40;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-hero .services-line-01 {
-    bottom: calc(60px + 20 * (100vw - 360px) / 1080);
+    bottom: calc(60px + 20 * (100vw - 360px) / 840);
   }
 }
 @media (max-width: 767px) {
@@ -77,9 +77,9 @@
   z-index: 60;
   margin-top: 185px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-hero__col-01 {
-    margin-top: calc(175px + 10 * (100vw - 360px) / 1080);
+    margin-top: calc(175px + 10 * (100vw - 360px) / 840);
   }
 }
 .services-hero__label {
@@ -104,9 +104,9 @@
   position: relative;
   z-index: 30;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-hero__label span {
-    font-size: calc(16px + 8 * (100vw - 360px) / 1080);
+    font-size: calc(16px + 8 * (100vw - 360px) / 840);
   }
 }
 .services-hero__label::before {
@@ -145,9 +145,9 @@
   font-weight: 800;
   text-transform: uppercase;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-hero__title {
-    font-size: calc(60px + 44 * (100vw - 360px) / 1080);
+    font-size: calc(60px + 44 * (100vw - 360px) / 840);
   }
 }
 .services-hero__subtitle {
@@ -157,14 +157,14 @@
   line-height: 43px;
   color: #fff;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-hero__subtitle {
-    font-size: calc(24px + 12 * (100vw - 360px) / 1080);
+    font-size: calc(24px + 12 * (100vw - 360px) / 840);
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-hero__subtitle {
-    line-height: calc(30px + 13 * (100vw - 360px) / 1080);
+    line-height: calc(30px + 13 * (100vw - 360px) / 840);
   }
 }
 .services-hero__col-02 {
@@ -234,9 +234,9 @@
   margin: 0 auto;
   text-align: center;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-code__title {
-    font-size: calc(38px + 26 * (100vw - 360px) / 1080);
+    font-size: calc(38px + 26 * (100vw - 360px) / 840);
   }
 }
 .services-code__content {
@@ -313,9 +313,9 @@
   background: linear-gradient(180deg, rgb(20, 101, 255) 0%, rgb(246, 246, 246) 100%);
   padding-top: 120px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-sol {
-    padding-top: calc(104px + 16 * (100vw - 360px) / 1080);
+    padding-top: calc(104px + 16 * (100vw - 360px) / 840);
   }
 }
 @media (max-width: 767px) {
@@ -334,9 +334,9 @@
   max-width: 1100px;
   margin: 0 auto;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-sol__title {
-    font-size: calc(38px + 26 * (100vw - 360px) / 1080);
+    font-size: calc(38px + 26 * (100vw - 360px) / 840);
   }
 }
 .services-sol__title span {
@@ -345,9 +345,9 @@
 .services-sol__slider {
   margin-top: 48px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-sol__slider {
-    margin-top: calc(32px + 16 * (100vw - 360px) / 1080);
+    margin-top: calc(32px + 16 * (100vw - 360px) / 840);
   }
 }
 .services-sol__buttons {
@@ -371,9 +371,9 @@
   align-items: stretch;
   padding-bottom: 140px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-sol-slider {
-    padding-bottom: calc(80px + 60 * (100vw - 360px) / 1080);
+    padding-bottom: calc(80px + 60 * (100vw - 360px) / 840);
   }
 }
 @media (max-width: 992px) {
@@ -423,9 +423,9 @@
   font-weight: 600;
   color: #202020;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-sol-slider__label {
-    font-size: calc(16px + 8 * (100vw - 360px) / 1080);
+    font-size: calc(16px + 8 * (100vw - 360px) / 840);
   }
 }
 
@@ -496,9 +496,9 @@
   margin: 0 auto;
   text-align: center;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-ready__title {
-    font-size: calc(38px + 26 * (100vw - 360px) / 1080);
+    font-size: calc(38px + 26 * (100vw - 360px) / 840);
   }
 }
 .services-ready__text {
@@ -509,9 +509,9 @@
   line-height: normal;
   color: #fff;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-ready__text {
-    font-size: calc(16px + 8 * (100vw - 360px) / 1080);
+    font-size: calc(16px + 8 * (100vw - 360px) / 840);
   }
 }
 .services-ready__link {
@@ -539,9 +539,9 @@
   z-index: 30;
   transition: all 0.3s ease 0s;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .services-ready__link span {
-    font-size: calc(16px + 8 * (100vw - 360px) / 1080);
+    font-size: calc(16px + 8 * (100vw - 360px) / 840);
   }
 }
 .services-ready__link::before {

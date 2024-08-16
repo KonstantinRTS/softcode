@@ -5,14 +5,14 @@
   background: linear-gradient(180deg, rgb(20, 101, 255) 65%, rgb(246, 246, 246) 100%);
   position: relative;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-hero {
-    padding-top: calc(100px + 90 * (100vw - 360px) / 1080);
+    padding-top: calc(100px + 90 * (100vw - 360px) / 840);
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-hero {
-    padding-bottom: calc(150px + 150 * (100vw - 360px) / 1080);
+    padding-bottom: calc(150px + 150 * (100vw - 360px) / 840);
   }
 }
 .work-hero__title {
@@ -23,9 +23,9 @@
   color: #fff;
   text-transform: uppercase;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-hero__title {
-    font-size: calc(38px + 66 * (100vw - 360px) / 1080);
+    font-size: calc(38px + 66 * (100vw - 360px) / 840);
   }
 }
 .work-hero__subtitle {
@@ -36,9 +36,9 @@
   font-size: 36px;
   line-height: normal;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-hero__subtitle {
-    font-size: calc(24px + 12 * (100vw - 360px) / 1080);
+    font-size: calc(24px + 12 * (100vw - 360px) / 840);
   }
 }
 .work-hero__marquee {
@@ -47,9 +47,9 @@
   left: 0;
   width: 100%;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-hero__marquee {
-    bottom: calc(50px + 70 * (100vw - 360px) / 1080);
+    bottom: calc(50px + 70 * (100vw - 360px) / 840);
   }
 }
 
@@ -82,9 +82,9 @@
   max-width: 580px;
   margin: 0 auto;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-discover__title {
-    font-size: calc(38px + 26 * (100vw - 360px) / 1080);
+    font-size: calc(38px + 26 * (100vw - 360px) / 840);
   }
 }
 .work-discover__subtitle {
@@ -105,9 +105,9 @@
   align-items: stretch;
   padding-bottom: 140px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-discover-slider {
-    padding-bottom: calc(80px + 60 * (100vw - 360px) / 1080);
+    padding-bottom: calc(80px + 60 * (100vw - 360px) / 840);
   }
 }
 @media (max-width: 992px) {
@@ -230,9 +230,9 @@
 .work-faq {
   padding-top: 120px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-faq {
-    padding-top: calc(80px + 40 * (100vw - 360px) / 1080);
+    padding-top: calc(80px + 40 * (100vw - 360px) / 840);
   }
 }
 .work-faq__title {
@@ -243,9 +243,9 @@
   max-width: 720px;
   margin: 0 auto;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-faq__title {
-    font-size: calc(38px + 26 * (100vw - 360px) / 1080);
+    font-size: calc(38px + 26 * (100vw - 360px) / 840);
   }
 }
 .work-faq__content {
@@ -277,9 +277,9 @@
   font-family: "Urbanist", sans-serif;
   max-width: 80%;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-faq__label .label {
-    font-size: calc(18px + 6 * (100vw - 360px) / 1080);
+    font-size: calc(18px + 6 * (100vw - 360px) / 840);
   }
 }
 @media (max-width: 767px) {
@@ -320,9 +320,9 @@
 .work-services {
   padding-top: 120px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-services {
-    padding-top: calc(80px + 40 * (100vw - 360px) / 1080);
+    padding-top: calc(80px + 40 * (100vw - 360px) / 840);
   }
 }
 .work-services__body {
@@ -336,9 +336,9 @@
   background-size: contain;
   background-position: center bottom;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-services__body {
-    padding-top: calc(80px + 40 * (100vw - 360px) / 1080);
+    padding-top: calc(80px + 40 * (100vw - 360px) / 840);
   }
 }
 @media (max-width: 767px) {
@@ -358,9 +358,9 @@
   font-weight: 700;
   text-align: center;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-services__title {
-    font-size: calc(40px + 24 * (100vw - 360px) / 1080);
+    font-size: calc(40px + 24 * (100vw - 360px) / 840);
   }
 }
 @media (max-width: 767px) {
@@ -377,9 +377,9 @@
   line-height: normal;
   text-align: center;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-services__text {
-    font-size: calc(16px + 8 * (100vw - 360px) / 1080);
+    font-size: calc(16px + 8 * (100vw - 360px) / 840);
   }
 }
 .work-services__link {
@@ -407,9 +407,9 @@
   z-index: 30;
   transition: all 0.3s ease 0s;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .work-services__link span {
-    font-size: calc(16px + 8 * (100vw - 360px) / 1080);
+    font-size: calc(16px + 8 * (100vw - 360px) / 840);
   }
 }
 .work-services__link::before {

@@ -36,6 +36,11 @@ body::-webkit-scrollbar-thumb {
   margin: 0 auto;
   padding: 0 16px;
 }
+@media (max-width: 1439px) {
+  ._container {
+    max-width: 1200px;
+  }
+}
 
 #preloader {
   position: fixed;

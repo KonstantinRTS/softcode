@@ -2,14 +2,14 @@
   padding-top: 120px;
   padding-bottom: 120px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .footer {
-    padding-top: calc(80px + 40 * (100vw - 360px) / 1080);
+    padding-top: calc(80px + 40 * (100vw - 360px) / 840);
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .footer {
-    padding-bottom: calc(80px + 40 * (100vw - 360px) / 1080);
+    padding-bottom: calc(80px + 40 * (100vw - 360px) / 840);
   }
 }
 .footer__body {

@@ -5,14 +5,14 @@
   background: linear-gradient(180deg, rgb(20, 101, 255) 65%, rgb(246, 246, 246) 100%);
   position: relative;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-hero {
-    padding-top: calc(80px + 60 * (100vw - 360px) / 1080);
+    padding-top: calc(80px + 60 * (100vw - 360px) / 840);
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-hero {
-    padding-bottom: calc(0px + 384 * (100vw - 360px) / 1080);
+    padding-bottom: calc(0px + 384 * (100vw - 360px) / 840);
   }
 }
 .career-hero::before {
@@ -118,9 +118,9 @@
   position: relative;
   z-index: 30;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-hero__label span {
-    font-size: calc(16px + 8 * (100vw - 360px) / 1080);
+    font-size: calc(16px + 8 * (100vw - 360px) / 840);
   }
 }
 .career-hero__label::before {
@@ -159,9 +159,9 @@
   font-weight: 800;
   text-transform: uppercase;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-hero__title {
-    font-size: calc(60px + 44 * (100vw - 360px) / 1080);
+    font-size: calc(60px + 44 * (100vw - 360px) / 840);
   }
 }
 @media (max-width: 767px) {
@@ -177,14 +177,14 @@
   color: #fff;
   max-width: 680px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-hero__subtitle {
-    font-size: calc(24px + 12 * (100vw - 360px) / 1080);
+    font-size: calc(24px + 12 * (100vw - 360px) / 840);
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-hero__subtitle {
-    line-height: calc(30px + 13 * (100vw - 360px) / 1080);
+    line-height: calc(30px + 13 * (100vw - 360px) / 840);
   }
 }
 @media (max-width: 767px) {
@@ -235,9 +235,9 @@
   z-index: 100;
   margin-top: -100px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-our {
-    margin-top: calc(0px + -100 * (100vw - 360px) / 1080);
+    margin-top: calc(0px + -100 * (100vw - 360px) / 840);
   }
 }
 @media (max-width: 575px) {
@@ -254,9 +254,9 @@
   color: #202020;
   text-align: center;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-our__title {
-    font-size: calc(38px + 26 * (100vw - 360px) / 1080);
+    font-size: calc(38px + 26 * (100vw - 360px) / 840);
   }
 }
 .career-our__slider {
@@ -429,9 +429,9 @@
   margin: 0 auto;
   text-align: center;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-ready__title {
-    font-size: calc(38px + 26 * (100vw - 360px) / 1080);
+    font-size: calc(38px + 26 * (100vw - 360px) / 840);
   }
 }
 .career-ready__text {
@@ -442,9 +442,9 @@
   line-height: normal;
   color: #fff;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-ready__text {
-    font-size: calc(16px + 8 * (100vw - 360px) / 1080);
+    font-size: calc(16px + 8 * (100vw - 360px) / 840);
   }
 }
 .career-ready__link {
@@ -472,9 +472,9 @@
   z-index: 30;
   transition: all 0.3s ease 0s;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-ready__link span {
-    font-size: calc(16px + 8 * (100vw - 360px) / 1080);
+    font-size: calc(16px + 8 * (100vw - 360px) / 840);
   }
 }
 .career-ready__link::before {
@@ -560,14 +560,14 @@
   background: rgb(20, 101, 255);
   background: linear-gradient(180deg, rgb(20, 101, 255) 0%, rgb(246, 246, 246) 90%);
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-current {
-    padding-top: calc(80px + 40 * (100vw - 360px) / 1080);
+    padding-top: calc(80px + 40 * (100vw - 360px) / 840);
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-current {
-    padding-bottom: calc(80px + 40 * (100vw - 360px) / 1080);
+    padding-bottom: calc(80px + 40 * (100vw - 360px) / 840);
   }
 }
 .career-current__title {
@@ -577,9 +577,9 @@
   color: #fff;
   text-align: center;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-current__title {
-    font-size: calc(38px + 26 * (100vw - 360px) / 1080);
+    font-size: calc(38px + 26 * (100vw - 360px) / 840);
   }
 }
 .career-current__items {
@@ -627,9 +627,9 @@
   font-weight: 600;
   color: #202020;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-current__label {
-    font-size: calc(24px + 12 * (100vw - 360px) / 1080);
+    font-size: calc(24px + 12 * (100vw - 360px) / 840);
   }
 }
 .career-current__row {
@@ -658,14 +658,14 @@
   position: relative;
   margin-top: -160px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-why {
-    padding-top: calc(150px + 120 * (100vw - 360px) / 1080);
+    padding-top: calc(150px + 120 * (100vw - 360px) / 840);
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-why {
-    margin-top: calc(0px + -160 * (100vw - 360px) / 1080);
+    margin-top: calc(0px + -160 * (100vw - 360px) / 840);
   }
 }
 .career-why__title {
@@ -676,14 +676,14 @@
   color: #fff;
   text-align: center;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-why__title {
-    font-size: calc(38px + 26 * (100vw - 360px) / 1080);
+    font-size: calc(38px + 26 * (100vw - 360px) / 840);
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .career-why__title {
-    margin-bottom: calc(32px + 50 * (100vw - 360px) / 1080);
+    margin-bottom: calc(32px + 50 * (100vw - 360px) / 840);
   }
 }
 .career-why__content {

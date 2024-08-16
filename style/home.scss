@@ -211,6 +211,10 @@
             object-fit: cover;
             display: flex;
 
+            @media(max-width: 1439px) { 
+                max-width: 700px;
+            }
+
             @media (max-width: 992px) {
                 width: 100%;
             }

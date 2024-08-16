@@ -44,6 +44,10 @@ body {
 	max-width: $maxWidthContainer + px;
 	margin: 0 auto;
 	padding: 0 16px;
+
+	@media(max-width: 1439px) { 
+		max-width: 1200px;
+	}
 }
 
 #preloader { 
