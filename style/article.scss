@@ -1,7 +1,7 @@
 @import "mixin";
 
 .article-hero {
-    @include adaptiv-value("padding-top", 150, 100, 1);
+    @include adaptiv-value("padding-top", 150, 100, 1); 
     @include adaptiv-value("padding-bottom", 550, 220, 1);
     background: rgb(20, 101, 255);
     background: linear-gradient(180deg, rgba(20, 101, 255, 1) 65%, rgba(246, 246, 246, 1) 100%);

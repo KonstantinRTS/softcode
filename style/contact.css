@@ -5,14 +5,14 @@
   background: linear-gradient(180deg, rgb(20, 101, 255) 65%, rgb(246, 246, 246) 100%);
   position: relative;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
   .contact-hero {
-    padding-top: calc(100px + 90 * (100vw - 360px) / 840);
+    padding-top: calc(100px + 90 * (100vw - 360px) / 1080);
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
   .contact-hero {
-    padding-bottom: calc(70px + 50 * (100vw - 360px) / 840);
+    padding-bottom: calc(70px + 50 * (100vw - 360px) / 1080);
   }
 }
 .contact-hero::before {
@@ -55,9 +55,9 @@
   color: #fff;
   text-transform: uppercase;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
   .contact-hero__title {
-    font-size: calc(38px + 26 * (100vw - 360px) / 840);
+    font-size: calc(38px + 26 * (100vw - 360px) / 1080);
   }
 }
 .contact-hero__subtitle {
@@ -66,9 +66,9 @@
   line-height: normal;
   color: #fff;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
   .contact-hero__subtitle {
-    font-size: calc(24px + 12 * (100vw - 360px) / 840);
+    font-size: calc(24px + 12 * (100vw - 360px) / 1080);
   }
 }
 .contact-hero__text {
