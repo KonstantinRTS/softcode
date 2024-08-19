@@ -1165,20 +1165,27 @@
 .home-meet__image {
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: -180px;
   transform: translate(-50%, 0);
-  width: 100%;
+  width: 1808px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media (max-width: 1439px) {
+  .home-meet__image {
+    width: 1708px;
+    bottom: -80px;
+  }
 }
 @media (max-width: 1200px) {
   .home-meet__image {
     display: none;
   }
 }
-@media (min-width: 1441px) {
+@media (min-width: 1651px) {
   .home-meet__image {
     bottom: -180px;
+    width: 1940px;
   }
 }
 .home-meet__image-mobile {
@@ -1272,7 +1279,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 120px auto;
+  margin: 0 auto 40px auto;
   padding: 26px;
   background-color: #fff;
   border-radius: 36px;
@@ -1319,17 +1326,41 @@
   height: -moz-fit-content;
   height: fit-content;
   margin: auto 0;
+  position: relative;
+  top: 30px;
+}
+@media (max-width: 1439px) {
+  .home-meet__item:nth-child(2) {
+    top: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .home-meet__item:nth-child(2) {
+    top: 0;
+  }
 }
 .home-meet__item:nth-child(3) {
   grid-column-start: 2;
   grid-row-start: span 2;
   height: -moz-fit-content;
   height: fit-content;
+  position: relative;
+  top: 75px;
 }
-@media (min-width: 1441px) {
+@media (max-width: 1439px) {
+  .home-meet__item:nth-child(3) {
+    top: 50px;
+  }
+}
+@media (min-width: 1651px) {
   .home-meet__item:nth-child(3) {
     position: relative;
     top: 35px;
+  }
+}
+@media (max-width: 1200px) {
+  .home-meet__item:nth-child(3) {
+    top: 0;
   }
 }
 .home-meet__item:nth-child(4) {
@@ -1343,11 +1374,23 @@
   grid-row-start: 2;
   height: -moz-fit-content;
   height: fit-content;
+  position: relative;
+  top: 75px;
 }
-@media (min-width: 1441px) {
+@media (max-width: 1439px) {
+  .home-meet__item:nth-child(5) {
+    top: 50px;
+  }
+}
+@media (min-width: 1651px) {
   .home-meet__item:nth-child(5) {
     position: relative;
     top: 35px;
+  }
+}
+@media (max-width: 1200px) {
+  .home-meet__item:nth-child(5) {
+    top: 0;
   }
 }
 .home-meet__item:nth-child(6) {
@@ -1355,6 +1398,18 @@
   grid-row-start: 3;
   height: -moz-fit-content;
   height: fit-content;
+  position: relative;
+  top: 30px;
+}
+@media (max-width: 1439px) {
+  .home-meet__item:nth-child(6) {
+    top: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .home-meet__item:nth-child(6) {
+    top: 0;
+  }
 }
 .home-meet__item:nth-child(7) {
   grid-column-start: 5;
