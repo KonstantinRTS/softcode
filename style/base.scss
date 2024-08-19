@@ -184,6 +184,13 @@ body {
 /* Marquee for home page */
 .marquee-slider-first {
 	height: 68px;
+	.slick-track { 
+		height: 68px;
+
+		@media(max-width: 767px) { 
+			height: 30px;
+		}
+	}
 	@media(max-width: 767px) { 
 		height: 30px;
 	}

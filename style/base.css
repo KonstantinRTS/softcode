@@ -168,6 +168,14 @@ body::-webkit-scrollbar-thumb {
 .marquee-slider-first {
   height: 68px;
 }
+.marquee-slider-first .slick-track {
+  height: 68px;
+}
+@media (max-width: 767px) {
+  .marquee-slider-first .slick-track {
+    height: 30px;
+  }
+}
 @media (max-width: 767px) {
   .marquee-slider-first {
     height: 30px;
