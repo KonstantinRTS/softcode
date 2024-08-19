@@ -41,8 +41,17 @@
 
 
 .work-hero-marquee {
-
+    @media(max-width: 767px) {
+        height: 50px;
+    }
     &__item {
+
+        img { 
+            @media(max-width: 767px) { 
+                height: 50px;
+                object-fit: cover;
+            }
+        }
     }
 }
 
@@ -284,9 +293,9 @@
         justify-content: space-between;
         width: 100%;
         column-gap: 32px;
-        @media(max-width: 767px) { 
+        /* @media(max-width: 767px) { 
             align-items: flex-start;
-        }
+        } */
 
         .label {
             @include adaptiv-value('font-size', 24, 18, 1);
@@ -380,6 +389,10 @@
         @media(max-width: 767px) { 
             max-width: 80%;
             margin: 0 auto;
+        }
+
+        @media(max-width: 389px) { 
+            max-width: 90%;
         }
     }
 

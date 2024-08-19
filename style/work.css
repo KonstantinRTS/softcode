@@ -53,6 +53,19 @@
   }
 }
 
+@media (max-width: 767px) {
+  .work-hero-marquee {
+    height: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .work-hero-marquee__item img {
+    height: 50px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
 .work-discover {
   position: relative;
 }
@@ -262,11 +275,9 @@
   width: 100%;
   -moz-column-gap: 32px;
        column-gap: 32px;
-}
-@media (max-width: 767px) {
-  .work-faq__label {
-    align-items: flex-start;
-  }
+  /* @media(max-width: 767px) { 
+      align-items: flex-start;
+  } */
 }
 .work-faq__label .label {
   font-size: 24px;
@@ -367,6 +378,11 @@
   .work-services__title {
     max-width: 80%;
     margin: 0 auto;
+  }
+}
+@media (max-width: 389px) {
+  .work-services__title {
+    max-width: 90%;
   }
 }
 .work-services__text {

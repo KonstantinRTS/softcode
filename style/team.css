@@ -163,6 +163,11 @@
 @media (max-width: 767px) {
   .team-hero__title {
     text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .team-hero__title br {
+    display: none;
   }
 }
 .team-hero__subtitle {
@@ -615,6 +620,12 @@
     font-size: calc(40px + 24 * (100vw - 360px) / 1080);
   }
 }
+@media (max-width: 767px) {
+  .team-need__title {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
 .team-need__text {
   margin: 25px auto 40px auto;
   max-width: 680px;
@@ -626,6 +637,11 @@
 @media (max-width: 1440px) {
   .team-need__text {
     font-size: calc(16px + 8 * (100vw - 360px) / 1080);
+  }
+}
+@media (max-width: 767px) {
+  .team-need__text {
+    max-width: 90%;
   }
 }
 .team-need__link {

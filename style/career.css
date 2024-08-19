@@ -431,7 +431,7 @@
 }
 @media (max-width: 1440px) {
   .career-ready__title {
-    font-size: calc(38px + 26 * (100vw - 360px) / 1080);
+    font-size: calc(36px + 28 * (100vw - 360px) / 1080);
   }
 }
 .career-ready__text {
@@ -724,6 +724,9 @@
     height: -moz-fit-content;
     height: fit-content;
     border-radius: 16px;
+  }
+  .career-why__item br {
+    display: none;
   }
 }
 .career-why__item:nth-child(1) {

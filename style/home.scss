@@ -6,6 +6,7 @@
     background: linear-gradient(180deg, rgba(20, 101, 255, 1) 65%, rgba(246, 246, 246, 1) 100%);
     position: relative;
     margin: 0 0 300px 0;
+    z-index: 30;
     @media (max-width: 1200px) {
         margin: 0 0 80px 0;
     }
@@ -22,12 +23,12 @@
         width: 100%;
         object-fit: cover;
         position: absolute;
-        @include adaptiv-value("bottom", 80, 60, 1);
+        @include adaptiv-value("bottom", 0, 60, 1);
         left: 0;
         z-index: 40;
 
         @media (max-width: 767px) {
-            height: 27px;
+            height: 47px;
         }
     }
 
@@ -144,8 +145,8 @@
     &__subtitle {
         margin: 16px 0 0 0;
         font-size: 36px;
-        @include adaptiv-value("font-size", 36, 34, 1);
-        @include adaptiv-value("line-height", 43, 41, 1);
+        @include adaptiv-value("font-size", 36, 24, 1);
+        @include adaptiv-value("line-height", 43, 31, 1);
         color: #fff;
         max-width: 460px;
     }
@@ -370,7 +371,8 @@
         position: relative;
         transform: rotate(186deg);
         top: -30px;
-
+        height: 40px;
+        box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.2);
         &::before {
             content: "";
             position: absolute;
@@ -382,7 +384,8 @@
         }
 
         @media (max-width: 767px) {
-            top: 15px;
+            height: 30px;
+            top: 26px;
             transform: rotate(188deg);
         }
     }
@@ -391,6 +394,8 @@
         position: relative;
         transform: rotate(-5deg);
         top: -50px;
+        height: 40px;
+        box-shadow: 0 -8px 25px rgba(0, 0, 0, 0.3);
 
         &::before {
             content: "";
@@ -403,6 +408,7 @@
         }
 
         @media (max-width: 767px) {
+            height: 30px;
             top: 0;
             transform: rotate(-8deg);
         }
@@ -538,6 +544,10 @@
     background: rgb(20, 101, 255);
     background: linear-gradient(0deg, rgba(20, 101, 255, 1) 0%, rgba(246, 246, 246, 1) 65%);
     position: relative;
+    margin-top: -120px;
+    @media(max-width: 1200px) { 
+        margin-top: 0;
+    }
     &::before {
         content: "";
         position: absolute;
@@ -1181,6 +1191,10 @@
         font-weight: 700;
         line-height: normal;
         margin: 0 0 120px 0;
+
+        @media(min-width: 1441px) {
+            margin: 0 0 200px 0;
+        }
 
         span {
             color: #bfff34;

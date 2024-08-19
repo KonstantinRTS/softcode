@@ -14,12 +14,12 @@
         width: 100%;
         object-fit: cover;
         position: absolute;
-        @include adaptiv-value("bottom", 80, 60, 1);
+        @include adaptiv-value("bottom", 80, 110, 1);
         left: 0;
         z-index: 40;
 
         @media (max-width: 767px) {
-            height: 27px;
+            height: 50px;
         }
     }
 
@@ -536,7 +536,8 @@
         position: relative;
         transform: rotate(186deg);
         top: -30px;
-
+        height: 57px;
+        box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.2);
         &::before {
             content: "";
             position: absolute;
@@ -556,7 +557,9 @@
     &__marquee-02 {
         position: relative;
         transform: rotate(-5deg);
-        top: -50px;
+        top: -75px;
+        height: 57px;
+        box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.2);
 
         &::before {
             content: "";

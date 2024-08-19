@@ -22,12 +22,12 @@
 }
 @media (max-width: 1440px) {
   .services-hero .services-line-01 {
-    bottom: calc(60px + 20 * (100vw - 360px) / 1080);
+    bottom: calc(110px + -30 * (100vw - 360px) / 1080);
   }
 }
 @media (max-width: 767px) {
   .services-hero .services-line-01 {
-    height: 27px;
+    height: 50px;
   }
 }
 .services-hero .services-line-02 {
@@ -584,6 +584,8 @@
   position: relative;
   transform: rotate(186deg);
   top: -30px;
+  height: 57px;
+  box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.2);
 }
 .services-ready__marquee-01::before {
   content: "";
@@ -603,7 +605,9 @@
 .services-ready__marquee-02 {
   position: relative;
   transform: rotate(-5deg);
-  top: -50px;
+  top: -75px;
+  height: 57px;
+  box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.2);
 }
 .services-ready__marquee-02::before {
   content: "";

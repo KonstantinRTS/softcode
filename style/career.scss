@@ -410,7 +410,7 @@
     }
 
     &__title {
-        @include adaptiv-value("font-size", 64, 38, 1);
+        @include adaptiv-value("font-size", 64, 36, 1);
         line-height: normal;
         color: #fff;
         font-weight: 600;
@@ -678,6 +678,9 @@
             width: 100%;
             height: fit-content;
             border-radius: 16px;
+            br { 
+                display: none;
+            }
         }
 
         &:nth-child(1) { 

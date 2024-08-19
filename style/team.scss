@@ -144,6 +144,11 @@
 
         @media(max-width: 767px) { 
             text-align: center;
+            br { 
+                display: none;
+            }
+            max-width: 90%;
+            margin: 0 auto;
         }
     }
 
@@ -587,6 +592,11 @@
         color: #fff;
         font-weight: 700;
         text-align: center;
+
+        @media(max-width: 767px) { 
+            max-width: 80%;
+            margin: 0 auto;
+        }
     }
 
     &__text { 
@@ -596,6 +606,10 @@
         @include adaptiv-value('font-size', 24, 16, 1);
         line-height: normal;
         text-align: center;
+
+        @media(max-width: 767px) { 
+            max-width: 90%;
+        }
     }
 
     &__link {

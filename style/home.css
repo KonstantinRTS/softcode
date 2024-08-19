@@ -4,6 +4,7 @@
   background: linear-gradient(180deg, rgb(20, 101, 255) 65%, rgb(246, 246, 246) 100%);
   position: relative;
   margin: 0 0 300px 0;
+  z-index: 30;
 }
 @media (max-width: 1200px) {
   .home-hero {
@@ -26,18 +27,18 @@
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
-  bottom: 80px;
+  bottom: 0px;
   left: 0;
   z-index: 40;
 }
 @media (max-width: 1440px) {
   .home-hero .home-line-01 {
-    bottom: calc(60px + 20 * (100vw - 360px) / 1080);
+    bottom: calc(60px + -60 * (100vw - 360px) / 1080);
   }
 }
 @media (max-width: 767px) {
   .home-hero .home-line-01 {
-    height: 27px;
+    height: 47px;
   }
 }
 .home-hero .home-line-02 {
@@ -164,12 +165,12 @@
 }
 @media (max-width: 1440px) {
   .home-hero__subtitle {
-    font-size: calc(34px + 2 * (100vw - 360px) / 1080);
+    font-size: calc(24px + 12 * (100vw - 360px) / 1080);
   }
 }
 @media (max-width: 1440px) {
   .home-hero__subtitle {
-    line-height: calc(41px + 2 * (100vw - 360px) / 1080);
+    line-height: calc(31px + 12 * (100vw - 360px) / 1080);
   }
 }
 .home-hero__col-02 {
@@ -403,6 +404,8 @@
   position: relative;
   transform: rotate(186deg);
   top: -30px;
+  height: 40px;
+  box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.2);
 }
 .home-need__marquee-01::before {
   content: "";
@@ -415,7 +418,8 @@
 }
 @media (max-width: 767px) {
   .home-need__marquee-01 {
-    top: 15px;
+    height: 30px;
+    top: 26px;
     transform: rotate(188deg);
   }
 }
@@ -423,6 +427,8 @@
   position: relative;
   transform: rotate(-5deg);
   top: -50px;
+  height: 40px;
+  box-shadow: 0 -8px 25px rgba(0, 0, 0, 0.3);
 }
 .home-need__marquee-02::before {
   content: "";
@@ -435,6 +441,7 @@
 }
 @media (max-width: 767px) {
   .home-need__marquee-02 {
+    height: 30px;
     top: 0;
     transform: rotate(-8deg);
   }
@@ -535,6 +542,12 @@
   background: rgb(20, 101, 255);
   background: linear-gradient(0deg, rgb(20, 101, 255) 0%, rgb(246, 246, 246) 65%);
   position: relative;
+  margin-top: -120px;
+}
+@media (max-width: 1200px) {
+  .home-welcome {
+    margin-top: 0;
+  }
 }
 .home-welcome::before {
   content: "";
@@ -1152,6 +1165,11 @@
 @media (max-width: 1440px) {
   .home-meet__title {
     font-size: calc(38px + 26 * (100vw - 360px) / 1080);
+  }
+}
+@media (min-width: 1441px) {
+  .home-meet__title {
+    margin: 0 0 200px 0;
   }
 }
 .home-meet__title span {

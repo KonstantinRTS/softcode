@@ -41,7 +41,12 @@
          column-gap: 32px;
     row-gap: 16px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 575px) {
+  .footer__item:first-child {
+    display: none;
   }
 }
 .footer__link {
